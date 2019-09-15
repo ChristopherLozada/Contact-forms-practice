@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    font-weight: 400;
+}
+
+body {
+    background-image: url(images/nature.svg);
+    background-size:  cover;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+}
+
+li, a, button {
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.2s ease 0s;
+    color: white;
+    cursor: pointer;
+}
+
+/* Header: Nav bar */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 3%;
+}
+
+.logo {
+    margin-right: auto;
+    height: 100px;
+    cursor: pointer;
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 10px;    
+}
+
+.nav-links a {
+    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+}
+
+.nav-links a:hover {
+    border-bottom: 1px solid;
+}
+
+button {
+    padding: 9px 15px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 15px;
+    background: rgba(16, 172, 132, 1);
+}
+
+button:hover {
+    background:rgba(16, 172, 132,0.8)
+}
+
+/* section:contact form */
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.contact-form {
+    width: 85%;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 8px;
+    background: #f1fdf1;
+    padding: 30px 40px;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+.txtb {
+    border: 1px solid gray;
+    padding: 12px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+}
+
+.txtb label {
+    display: block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.txtb input, .txtb textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    background: rgba(16, 172, 132, 1);
+    width: 100%;
+    padding: 14px 0px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: rgba(16, 172, 132, 0.8);
+}
